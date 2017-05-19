@@ -1,38 +1,9 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8" />
-    <title>ShareMyBeer</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-<!-- MEU NAV BAR -->
-<nav class="nav has-shadow">
-    <div class="container">
-        <div class="nav-left">
-            <a href="login.html" class="nav-item">
-                <img src="images/Beer-icon.png" alt="logo">
-            </a>
-        </div>
-        <span class="nav-toggle">
-	      <span></span>
-	      <span></span>
-	      <span></span>
-	    </span>
-        <div class="nav-right nav-menu">
-            <a class="nav-item is-tab is-hidden-mobile is-active">Login</a>
-            <a href="register.html" class="nav-item is-tab is-hidden-mobile">Register</a>
-        </div>
-    </div>
-</nav>
 <!-- SECTION / ARTICLE -->
 <section class="hero is-fullheight is-dark is-bold">
 
     <div class="hero-body">
         <div class="container">
-            <form action="../modeles/modeleUser.php" class="columns is-vcentered">
+            <div class="columns is-vcentered">
                 <div class="column is-4 is-offset-4">
                     <h1 class="title">
                         Login
@@ -59,7 +30,7 @@
 
                     </p>
                 </div>
-            </form>
+            </div>
         </div>
     </div>
 

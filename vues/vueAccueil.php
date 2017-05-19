@@ -1,15 +1,16 @@
-    <!--<div class="row">
-      <div class="large-12 columns">
-        <h1>Bienvenue</h1>
-      </div>
-    </div>-->
+<section class="hero is-fullheight is-dark is-bold">
 
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="callout">
-          <h3>Bienvenue sur le site de la cordée de la réussite </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-4 is-offset-4">
+                    <h1 class="title">
+                        Accueil
+                    </h1>
+                    <div class="box">
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+
+</section>

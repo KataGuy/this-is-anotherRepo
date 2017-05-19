@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8" />
-    <title>ShareMyBeer</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<!-- MEU NAV BAR -->
-<nav class="nav has-shadow">
-    <div class="container">
-        <div class="nav-left">
-            <a href="login.html" class="nav-item">
-                <img src="images/Beer-icon.png" alt="logo">
-            </a>
-        </div>
-        <span class="nav-toggle">
-	      <span></span>
-	      <span></span>
-	      <span></span>
-	    </span>
-        <div class="nav-right nav-menu">
-            <a href="login.html" class="nav-item is-tab is-hidden-mobile">Login</a>
-            <a class="nav-item is-tab is-hidden-mobile is-active">Register</a>
-        </div>
-    </div>
-</nav>
-<!-- SECTION / ARTICLE -->
 <section class="hero is-fullheight is-dark is-bold">
     <!-- SECTION / ARTICLE -->
     <div class="hero-body">
@@ -71,16 +42,3 @@
             </div>
         </div>
     </div>
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="content has-text-centered">
-                <p>
-                    <strong>ShareMyBeer.com</strong> est un réseau social développé par NOUS.
-                    <strong>Enjoy !</strong>
-                </p>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
