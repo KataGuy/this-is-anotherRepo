@@ -43,29 +43,38 @@
 <!-- FIL D'ACTUALITE -->
     <section class="section">
     <div class="container">
-    <div class="tile is-ancestor">
-  <div class="tile is-parent">
-    <article class="tile is-child box">
-      <p class="title">Hello World</p>
-      <p class="subtitle">What is up?</p>
-    </article>
-  </div>
-  <div class="tile is-parent">
-    <article class="tile is-child box">
-      <p class="title">Foo</p>
-      <p class="subtitle">Bar</p>
-    </article>
-  </div>
-  <div class="tile is-parent">
-    <article class="tile is-child box">
-      <p class="title">Third column</p>
-      <p class="subtitle">With some content</p>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+<!-- Main container -->
+<nav class="level">
+  <!-- Left side -->
+  <div class="level-left">
+    <div class="level-item">
+      <p class="subtitle is-5">
+        <strong>123</strong> posts
+      </p>
+    </div>
+    <div class="level-item">
+      <div class="field has-addons">
+        <p class="control">
+          <input class="input" type="text" placeholder="Find a post">
+        </p>
+        <p class="control">
+          <button class="button">
+            Search
+          </button>
+        </p>
       </div>
-    </article>
+    </div>
   </div>
-</div>
+
+  <!-- Right side -->
+  <div class="level-right">
+    <p class="level-item"><strong>All</strong></p>
+    <p class="level-item"><a>Published</a></p>
+    <p class="level-item"><a>Drafts</a></p>
+    <p class="level-item"><a>Deleted</a></p>
+    <p class="level-item"><a class="button is-success">New</a></p>
+  </div>
+</nav>
 
 <div class="tile is-ancestor">
   <div class="tile is-vertical is-8">
